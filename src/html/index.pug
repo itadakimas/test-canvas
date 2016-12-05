@@ -8,4 +8,6 @@ block metasVariables
   - metas.twitter._isEnabled = false;
 
 block content
-  p Index page
+  div.app
+    input.app-color(type='text', id='color', placeholder='Hex color')
+    canvas.app-canvas(id='canvas')
